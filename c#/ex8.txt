@@ -1,0 +1,26 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite o primeiro número:");
+        int a = int.Parse(Console.ReadLine()!);
+
+        Console.WriteLine("Digite o segundo número:");
+        int b = int.Parse(Console.ReadLine()!);
+
+        Console.WriteLine("Digite o terceiro número:");
+        int c = int.Parse(Console.ReadLine()!);
+
+        if (a > 0 && b > 0 && c > 0)
+        {
+            int soma = a + b + c;
+            Console.WriteLine($"Soma = {soma}");
+        }
+        else
+        {
+            Console.WriteLine("Erro: todos os números devem ser positivos.");
+        }
+    }
+}

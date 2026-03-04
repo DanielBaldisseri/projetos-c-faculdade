@@ -1,0 +1,19 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        int contador = 1;
+        int soma = 0;
+
+        while (contador <= 5)
+        {
+            Console.WriteLine($"Digite o número {contador}:");
+            soma += int.Parse(Console.ReadLine()!);
+            contador++;
+        }
+
+        Console.WriteLine($"Soma = {soma}");
+    }
+}

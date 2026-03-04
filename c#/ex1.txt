@@ -1,0 +1,32 @@
+﻿using System;
+
+class Program
+{
+    static void Main()
+    {
+        int n1, n2;
+
+        Console.WriteLine("Digite Número 1");
+        n1 = int.Parse(Console.ReadLine()!);
+
+        Console.WriteLine("Digite Número 2");
+        n2 = int.Parse(Console.ReadLine()!);
+
+        int soma = n1+n2;
+
+        Console.WriteLine($"A soma é: {soma}");
+
+        int sub = n1-n2;
+
+        Console.WriteLine($"A subtração é: {sub}");
+
+        int mult = n1*n2;
+
+        Console.WriteLine($"A multiplicação é: {mult}");
+
+        int divi = n1/n2;
+
+        Console.WriteLine($"A divisão é: {divi}");
+
+    }
+}

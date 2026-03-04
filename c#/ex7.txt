@@ -1,0 +1,20 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Digite o primeiro número:");
+        int a = int.Parse(Console.ReadLine()!);
+
+        Console.WriteLine("Digite o segundo número:");
+        int b = int.Parse(Console.ReadLine()!);
+
+        if (a == b)
+            Console.WriteLine("Números iguais");
+        else if (a > b)
+            Console.WriteLine($"Maior número = {a}");
+        else
+            Console.WriteLine($"Maior número = {b}");
+    }
+}
